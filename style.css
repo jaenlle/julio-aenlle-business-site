@@ -1,0 +1,25 @@
+/*
+Theme Name: Slick's Autobody Theme
+Theme URI:
+Author: Julio Aenlle
+Description: Custom Blog Site for WIE course
+Version: 0.1
+License: Open
+Text Domain: julio-aenlle-slicks-business-theme
+*/
+
+/*
+Site colors:
+    Yellow: #f5ff6e;
+    Green: #085D24;
+ */
+
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
+@import url("https://fonts.googleapis.com/css?family=");
+
+html, body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
