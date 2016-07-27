@@ -64,12 +64,11 @@ header img {
 
 .nav {
     background-color: #085d24;
-    height: 125px;
 }
 
 .blank-menu-header {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 .blank-menu-header ul li {
@@ -95,7 +94,7 @@ header img {
 */
 
 #menu-slicks-menu {
-    margin: 15px 0 0 0;
+    margin: 5px 0 0 0;
 }
 
 .number h1 {
