@@ -11,16 +11,17 @@
 
     <div class="container">
         <header class="row">
-            <div class="twelve columns">
-                <a href="" target="_self"><img class="bannerimage" src="" height="100px" /></a>
-                <h1 class="bannerh1"><span style="color: orange"></span></h1>
-                <!--<h3><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo ('name'); ?></a></h3>-->
-                <p class="bannerp"><?php bloginfo ('description'); ?></p>
+            <div class="twelve columns head">
+                <a href="http://www.julioaenlle.net/slicksautobody" target="_self"><img class="bannerimage" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/logo_green.png"/></a>
+                <div class="number">
+                    <h1>1-866-555-0785</h1>
+                    <a href="/slicksautobody/page_contactform.php">Find a location</a>
+                </div>
             </div>
         </header>
 
           <div class="row"> <!-- this div houses the menu -->
-              <div class="twelve columns">
+              <div class="twelve columns nav">
                   <?php wp_nav_menu( array(
                           'sort_column'     =>  'menu_order',
                           'container_class' =>  'blank-menu-header'
