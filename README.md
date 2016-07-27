@@ -1,2 +1,2 @@
-# julio-aenlle-WIE-template
-Create a Blank WordPress Template
+# julio-aenlle-business-site
+Create a business for the fictional business Slick's Autobody
