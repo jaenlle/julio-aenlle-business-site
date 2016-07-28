@@ -5,7 +5,7 @@
                         <div class="footernav">
                             <ul>
                                 <li style="color: #f5ff6e; font-size: 1.4em">Navigation</li>
-                                <li><a href="">HOME</a></li>
+                                <li><a href="http://www.julioaenlle.net/slicksautobody">HOME</a></li>
                                 <li><a href="">SERVICES</a></li>
                                 <li><a href="">PROMOTIONS</a></li>
                                 <li><a href="http://julioaenlle.net/slicksautobody/index.php/about/">ABOUT</a></li>
