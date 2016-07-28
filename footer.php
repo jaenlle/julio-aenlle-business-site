@@ -8,6 +8,7 @@
                                 <li><a href="">HOME</a></li>
                                 <li><a href="">SERVICES</a></li>
                                 <li><a href="">PROMOTIONS</a></li>
+                                <li><a href="http://julioaenlle.net/slicksautobody/index.php/about/">ABOUT</a></li>
                                 <li><a href="">BLOG</a></li>
                             </ul>
                         </div>
