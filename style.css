@@ -47,6 +47,13 @@ p {
     color: #888888;
 }
 
+/* ------------------------------------------------------ blank divider section -- */
+
+.blank {
+    background-color: transparent;
+    visibility: hidden;
+}
+
 /* ------------------------------------------------------ header -- */
 
 header {
@@ -134,8 +141,12 @@ header img {
     padding: 40px 10px;
 }
 
+.blank-menu-header a:hover {
+    color: #f5ff6e;
+}
+
 #menu-slicks-menu {
-    margin: 5px 0 0 0;
+    margin: 0;
 }
 
 @media (max-width: 750px) {
@@ -172,34 +183,12 @@ footer a {
     letter-spacing: 1.2px;
 }
 
-/*
-.footernav a {
-    font-family: 'Roboto', sans-serif;
-    color: #085d24;
-    background-color: white;
-    border: 3px solid #085d24;
-    padding: 5px 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    border-radius: 6px;
-    margin-bottom: 0;
-}
-*/
-
-
-#menu-slicks-menu {
-    margin: 5px 0 0 0;
-}
-
-#menu-slicks-menu {
-    margin: 15px 0 0 0;
-}
-
 .footerlogo {
     padding: 60px 0 0 0;
 }
 
 .copyright {
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     color: white;
     text-align: center;
@@ -283,7 +272,20 @@ footer a {
     color: white;
 }
 
-.footernav {
+footer a:hover {
+    color: #f5ff6e;
+}
+
+li.fl a {
+    font-weight: 700;
+    background-color: white;
+    color: #085d24;
+    padding: 7px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.four.columns.footernav {
     padding: 40px 60px 0;
     letter-spacing: 1.2px;
 }
@@ -302,7 +304,7 @@ footer a {
 }
 */
 
-.footerlogo {
+.four.columns.footerlogo {
     padding: 60px 0 0 0;
 }
 
@@ -311,6 +313,29 @@ footer a {
     color: white;
     text-align: center;
     margin: 35px 0 30px;
+}
+
+@media (max-width: 1000px) {
+
+    footer img {
+        width: 190px;
+        padding: 0 30px;
+    }
+
+    .four.columns.footernav,
+    .four.columns.footerlogo {
+        clear: both;
+    }
+}
+
+@media (max-width: 550px) {
+    footer img {
+        padding-left: 75px;
+    }
+
+    .four.columns.footernav {
+        padding: 40px 100px 0;
+    }
 }
 
 /* ------------------------------------------------------ pre-footer -- */
@@ -380,11 +405,6 @@ footer a {
     -webkit-border-radius: 6px;
     header
     border-radius: 6px;
-}
-
-.blank {
-    background-color: transparent;
-    visibility: hidden;
 }
 
 .maindeals {
