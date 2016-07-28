@@ -14,6 +14,19 @@ Site colors:
     Green: #085d24;
  */
 
+/* Site sections for easy search
+ blank divider section
+ header
+ navigation
+ footer
+ pre-footer
+ homepage
+ services
+ promotions
+ about
+ contact
+ */
+
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,500,700,700i,900,900i");
@@ -47,14 +60,14 @@ p {
     color: #888888;
 }
 
-/* ------------------------------------------------------ blank divider section -- */
+/* ------------------------------------------------- blank divider section -- */
 
 .blank {
     background-color: transparent;
     visibility: hidden;
 }
 
-/* ------------------------------------------------------ header -- */
+/* ---------------------------------------------------------------- header -- */
 
 header {
     background-color: #f5ff6e;
@@ -115,7 +128,7 @@ header img {
     }
 }
 
-/* ------------------------------------------------------ navigation -- */
+/* ------------------------------------------------------------ navigation -- */
 
 .nav {
     background-color: #085d24;
@@ -162,7 +175,7 @@ header img {
     }
 }
 
-/* ------------------------------------------------------ footer -- */
+/* ---------------------------------------------------------------- footer -- */
 
 footer {
     background-color: #085d24;
@@ -195,7 +208,7 @@ footer a {
     margin: 35px 0 30px;
 }
 
-/* ------------------------------------------------------ pre-footer -- */
+/* ------------------------------------------------------------ pre-footer -- */
 
 .twelve.columns.appt {
     background-color: #f5ff6e;
@@ -223,7 +236,7 @@ footer a {
     }
 }
 
-/* ------------------------------------------------------ homepage -- */
+/* -------------------------------------------------------------- homepage -- */
 
 .placeholder {
     background-color: lightblue;
@@ -256,7 +269,7 @@ footer a {
     margin-bottom: 0;
 }
 
-/* ------------------------------------------------------ footer -- */
+/* ---------------------------------------------------------------- footer -- */
 
 footer {
     background-color: #085d24;
@@ -338,7 +351,7 @@ li.fl a {
     }
 }
 
-/* ------------------------------------------------------ pre-footer -- */
+/* ------------------------------------------------------------ pre-footer -- */
 
 .twelve.columns.appt {
     background-color: #f5ff6e;
@@ -366,7 +379,7 @@ li.fl a {
     }
 }
 
-/* ------------------------------------------------------ homepage -- */
+/* -------------------------------------------------------------- homepage -- */
 
 .placeholder {
     background-color: lightblue;
@@ -431,7 +444,11 @@ li.fl a {
     margin: 0 30px;
 }
 
-/* ------------------------------------------------------ about -- */
+/* -------------------------------------------------------------- services -- */
+
+/* ------------------------------------------------------------ promotions -- */
+
+/* ----------------------------------------------------------------- about -- */
 
 .twelve.columns.story {
     margin: 30px 0 25px;
@@ -489,3 +506,5 @@ div.four.columns.doe p {
 #doe3 {
     background-image: url("http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/bo.jpg");
 }
+
+/* --------------------------------------------------------------- contact -- */
