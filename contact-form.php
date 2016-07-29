@@ -29,7 +29,7 @@ $body .= "\n";
 $success = mail($to, $subject, $body, "From: <$from>");
 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=http://julioaenlle.net/slicksautobody/index.php/thankyou/\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL= http://julioaenlle.net/slicksautobody/index.php/thankyou\">";
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";

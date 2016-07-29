@@ -5,10 +5,10 @@ Template Name: Contact Page
 ?>
     <?php get_header(); ?>
 
-        <section class="row">
-            <div class="six columns">
+        <section class="row contact">
+            <div class="six columns honk">
                 <h1>Give Us A Honk!</h1>
-                     <form method="post" action="/slicks/contact-form.php">
+                     <form method="post" action="http://gator3127.hostgator.com/public_html/slicksautobody/wp-content/themes/slicks/contact-form.php">
                          <label for="Name">Full Name</label>
                          <input type="text" name="Name" id="Name" />
 
@@ -19,7 +19,7 @@ Template Name: Contact Page
                           <input type="text" name="Email" id="Email" />
 
                           <label for="Message">Tell us more about your issues</label>
-                          <textarea name="Message" rows="20" cols="30" id="Message"></textarea>
+                          <textarea name="Message" rows="60" cols="30" id="Message"></textarea>
 
                           <input type="submit" name="submit" value="submit" class="submit-button" />
                      </form>
@@ -27,7 +27,7 @@ Template Name: Contact Page
 
             <!--<div class="two column blank">blank</div>-->
 
-            <div class="six columns">
+            <div class="six columns locations">
                 <h1>Locations</h1>
                 <div class="location">
                     <h2>Doral</h2>
