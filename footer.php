@@ -9,7 +9,7 @@
                                 <li><a href="http://julioaenlle.net/slicksautobody/index.php/services/">SERVICES</a></li>
                                 <li><a href="http://julioaenlle.net/slicksautobody/index.php/deals/">DEALS</a></li>
                                 <li><a href="http://julioaenlle.net/slicksautobody/index.php/about/">ABOUT</a></li>
-                                <li><a href="">BLOG</a></li>
+                                <li><a href="http://julioaenlle.net/slicksautobody/index.php/blog/">BLOG</a></li>
                             </ul>
                         </div>
                     </div>
