@@ -73,7 +73,7 @@ p {
 }
 
 .cctor_deal {
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
 }
 
 /* ---------------------------------------------------------------- header -- */
@@ -145,7 +145,7 @@ header img {
 
 .blank-menu-header {
     text-align: center;
-    padding: 40px;
+    padding: 40px 35px;
 }
 
 .blank-menu-header ul li {
@@ -454,6 +454,10 @@ li.fl a {
 }
 
 /* -------------------------------------------------------------- services -- */
+
+.ten.columns.services {
+    margin: 50px 0;
+}
 
 /* ------------------------------------------------------------ promotions -- */
 
