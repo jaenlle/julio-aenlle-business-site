@@ -1,49 +1,43 @@
 <?php get_header(); ?>
 
-    <section class="row">
-        <div class="eight columns">
-            <!-- BEGIN PAGE PHP -->
-              <?php
-                if ( have_posts() ) {
-                  while ( have_posts() ){
-                      the_post(); // the_post defines our Data CONTEXT
-
-                      if ( has_post_thumbnail() ){ ?>
-                            <h1 class="idv"><?php the_title(); ?></h2>
-                            <div class="post-thumbnail">
-                              <?php $image_src = wp_get_attachment_image_src( get_post_thumbnail_id(),’thumbnail’ );
-                                echo '<img width="100%" src="' . $image_src[0] . '">'; ?><!--ideal image width is 627; scale accordingly-->
-                            </div>
-                      <?php } ?>
-
-                      <?php the_content();
-                  }//END WHILE
-                } //END IF ?>
-                <p>Posted on:<?php the_time('F j, Y'); ?></span></p>
-            <!-- END PAGE PHP -->
-            <div id="prevnext" >
-                <div id="prevpost">
-                    <?php previous_post_link('
-                        <h4>%link</h4>
-                        ', '< Previous Post', false);
-                    ?>
+        <section class="row blog">
+            <h1><span style="font-style: italic;">Slick's</span> Exhaust Fumes</h1>
+            <h2 class="subhead">Blowing some hot air about cars and other stuff!</h2>
+            <div class="three columns slick">
+                <div id="doe1">
                 </div>
-                <div id="nextpost">
-                    <?php next_post_link('
-                    	<h4>%link</h4>
-                    	', 'Next Post >', false);
-                    ?>
+                <p>
+                    I'm John but my friends call me Slick. I consider myself a bit of a philosopher mechanic and this blog is where you can find my musings on everything from autos to amor!
+                </p>
+                <?php get_sidebar(); ?>
+            </div>
+
+            <div class="one column blank slick">blank</div>
+
+            <div class="eight columns posts">
+                  <?php
+                    if (have_posts()) :
+                     while (have_posts()) :
+                        the_post(); ?>
+                            <h2 class="title"><?php the_title(); ?></a></h2>
+                           <?php the_content();
+                     endwhile;
+                    endif; ?>
+                <div>
+                    <div id="prevpost">
+                        <?php previous_post_link('
+                            <p>%link</p>
+                            ', '< Previous Post', false);
+                        ?>
+                    </div>
+                    <div id="nextpost">
+                        <?php next_post_link('
+                        	<p>%link</p>
+                        	', 'Next Post >', false);
+                        ?>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="one column" id="blank">blank</div>
-
-        <!-- ADDING SIDEBAR -->
-        <div class="three columns">
-            <?php get_sidebar(); ?>
-        </div>
-
-    </section>
+        </section>
 
 <?php get_footer(); ?>
