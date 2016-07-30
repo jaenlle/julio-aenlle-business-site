@@ -460,6 +460,63 @@ li.fl a {
     margin: 50px 0;
 }
 
+.row.servetop,
+.row.servebottom {
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.servleft,
+.servright {
+    max-width: 350px;
+    float: left;
+}
+
+.servleft {
+    margin-right: 46.5px;
+}
+
+.servright {
+    margin-left: 46.5px;
+}
+
+img.mech,
+img.icon {
+    margin: 0 auto;
+}
+
+img.mech {
+    width: 350px;
+}
+
+img.icon {
+    width: 65px;
+    display: block;
+    margin: auto;
+}
+
+.servleft p,
+.servright p {
+    margin: 15px 0 20px;
+    text-align: justify;
+}
+
+@media (max-width: 750px) {
+    .row.servetop {
+        margin-bottom: 0;
+    }
+
+    .servleft,
+    .servright {
+        max-width: 350px;
+        margin: 50px 23.25px 0;
+    }
+
+    .servleft.sl1 {
+        margin-top: 0;
+    }
+}
+
 /* ------------------------------------------------------------ promotions -- */
 
 .ten.columns.deal {
