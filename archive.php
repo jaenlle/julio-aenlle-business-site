@@ -4,7 +4,7 @@
 
     get_header(); ?>
 
-        <section class="row">
+        <section class="row blog">
             <div class="eight columns">
                 <?php if ( have_posts() ): ?>
                     <h1>ARCHIVE</h1>
@@ -26,14 +26,14 @@
                 <?php endif; ?>
             </div>
 
-            <div class="one column" id="blank">blank</div>
+            <div class="one column blank">blank</div>
 
             <div class="three columns">
-                    <h3>By Month:</h3>
+                    <h2>By Month:</h2>
                         <ul>
                             <?php wp_get_archives( 'type=monthly'); ?>
                         </ul>
-                    <h3>By Category:</h3>
+                    <h2>By Category:</h2>
                         <ul>
                             <?php wp_list_categories(); ?>
                         </ul>

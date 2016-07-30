@@ -26,8 +26,10 @@ Site colors:
  promotions
  about
  contact
+ blog
  form
  thank you
+ blog
  404
  cars
  */
@@ -48,12 +50,16 @@ h3,
 h4 {
     color: #085d24;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.8px;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 3.2rem;
-    font-weight: 700;
-    letter-spacing: 0.8px;
+    font-size: 3.2em;
+}
+
+h2 {
+    font-size: 2.2em;
 }
 
 a {
@@ -230,7 +236,7 @@ footer a {
 .twelve.columns.appt a {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     letter-spacing: 2px;
     text-align: center;
     color: #085d24;
@@ -242,7 +248,7 @@ footer a {
 
 @media (max-width: 550px) {
     .twelve.columns.appt a {
-        font-size: 0.8rem;
+        font-size: 0.8em;
     }
 }
 
@@ -503,7 +509,7 @@ img.icon {
 
 @media (max-width: 750px) {
     .row.servetop {
-        margin-bottom: 0;
+        margin-bottom: 50px;
     }
 
     .servleft,
@@ -538,8 +544,6 @@ img.icon {
     letter-spacing: 1px;
     text-align: justify;
 }
-
-
 
 div.four.columns.doe {
     margin: 0 12.5px;
@@ -620,7 +624,6 @@ section.row.contact h1 {
 .six.columns.locations h2 {
     font-size: 2.3em;
     font-weight: 500;
-    letter-spacing: 1.2px;
     margin: 25px 0 15px;
 }
 
@@ -705,6 +708,58 @@ img#happycar {
     max-width: 550px;
     display: block;
     margin: auto;
+}
+
+/* ------------------------------------------------------------------ blog -- */
+
+section.row.blog {
+    margin: 50px 0;
+}
+
+section.row.blog h1 {
+    margin-bottom: 0;
+}
+
+section.row.blog h2 {
+    font-size: 2.2em;
+}
+
+h2.subhead {
+    margin-bottom: 60px;
+}
+
+section.row.blog p {
+    text-align: justify;
+}
+
+section.row.blog a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.slick {
+    margin-left: 0;
+}
+
+.posts {
+    margin-left: 60px;
+}
+
+h2.title {
+    margin-bottom: 15px;
+}
+
+#nextpost {
+    float: right;
+    text-align: left;
+}
+
+#prevpost {
+    float: left;
+    text-align: right;
+}
+
+li.categories {
+    color: #085d24;
 }
 
 /* ------------------------------------------------------------------- 404 -- */
