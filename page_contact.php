@@ -8,6 +8,9 @@ Template Name: Contact Page
         <section class="row contact">
             <div class="six columns honk">
                 <h1>Give Us A Honk!</h1>
+                <p>
+                    Use the form below to give us a little more information about your needs. We'll then contact you to set up an appointment that best utilizes your time!
+                </p>
                      <form method="post" action="http://gator3127.hostgator.com/public_html/slicksautobody/wp-content/themes/slicks/contact-form.php">
                          <label for="Name">Full Name</label>
                          <input type="text" name="Name" id="Name" />
