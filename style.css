@@ -67,10 +67,6 @@ p {
 
 /* ------------------------------------------------- blank divider section -- */
 
-.ten.columns.deal {
-    margin-top: 50px;
-}
-
 .blank {
     background-color: transparent;
     visibility: hidden;
@@ -465,10 +461,14 @@ li.fl a {
     margin: 50px 0;
 }
 
+.ten.columns.deal h1 {
+    margin-top: 50px;
+}
+
 /* ----------------------------------------------------------------- about -- */
 
 .twelve.columns.story {
-    margin: 30px 0 25px;
+    margin: 50px 0 25px;
 }
 
 .twelve.columns.story h1 {
