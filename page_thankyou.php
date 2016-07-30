@@ -5,13 +5,14 @@ Template Name: Thank You Page
 ?>
     <?php get_header(); ?>
         <div class="row">
-            <div class="twelve columns">
+            <div class="twelve columns thanks">
                 <h1>Thank you for contacting us!</h1>
+                <img src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/happy-car.png" alt="Happy car says thank you!" id="happycar"/>
                 <p>
-                We'll get back to you ASAP to set up an appointment!
+                We're revving our engines to get back to you to set up an appointment!
                 </p>
                 <p>
-                <a href="http://www.julioaenlle.net/slicksautobody">Head back to Slick's homepage.</a>
+                    <a href="http://www.julioaenlle.net/slicksautobody">Click to head back to the Slick's homepage.</a>
                 </p>
             </div>
         </div>

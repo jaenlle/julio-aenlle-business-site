@@ -12,6 +12,7 @@ Text Domain: julio-aenlle-slicks-business-theme
 Site colors:
     Yellow: #f5ff6e;
     Green: #085d24;
+    Gray: #888888;
  */
 
 /* Site sections for easy search
@@ -26,7 +27,9 @@ Site colors:
  about
  contact
  form
+ thank you
  404
+ cars
  */
 
 @import url("css/normalize.css");
@@ -64,9 +67,17 @@ p {
 
 /* ------------------------------------------------- blank divider section -- */
 
+.ten.columns.deal {
+    margin-top: 50px;
+}
+
 .blank {
     background-color: transparent;
     visibility: hidden;
+}
+
+.cctor_deal {
+    letter-spacing: .2px;
 }
 
 /* ---------------------------------------------------------------- header -- */
@@ -450,6 +461,10 @@ li.fl a {
 
 /* ------------------------------------------------------------ promotions -- */
 
+.ten.columns.deal {
+    margin: 50px 0;
+}
+
 /* ----------------------------------------------------------------- about -- */
 
 .twelve.columns.story {
@@ -602,7 +617,39 @@ input.submit-button:hover {
     background: #f5ff6e;
 }
 
-/* --------------------------------------------------------------- 404 -- */
+/* ------------------------------------------------------------- thank you -- */
+
+.twelve.columns.thanks {
+    margin-top: 50px;
+}
+
+.twelve.columns.thanks h1,
+.twelve.columns.thanks p,
+.twelve.columns.thanks a {
+    text-align: center;
+}
+
+.twelve.columns.thanks p,
+.twelve.columns.thanks a {
+    margin-top: 60px;
+    font-size: 1.3em;
+}
+
+.twelve.columns.thanks p {
+    margin-top: 60px;
+}
+
+.twelve.columns.thanks a:hover {
+    color: #f5ff6e;
+}
+
+img#happycar {
+    max-width: 550px;
+    display: block;
+    margin: auto;
+}
+
+/* ------------------------------------------------------------------- 404 -- */
 
 .404h1,
 .404h2,
@@ -612,6 +659,9 @@ input.submit-button:hover {
 
 .twelve.columns.404 h2,
 
+/* ------------------------------------------------------------------ cars -- */
+
+img#happycar,
 img#sadcar {
     max-width: 550px;
     margin: auto;
