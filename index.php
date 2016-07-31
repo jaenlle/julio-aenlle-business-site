@@ -9,7 +9,7 @@
         <div class="eight columns main">
             <h1>Our Promise To You</h1>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mollis vitae enim sed finibus. Aenean tincidunt est ut arcu vulputate porta. Aenean tellus leo, malesuada et nulla ac, ullamcorper convallis enim. Phasellus bibendum, erat in eleifend porta, erat purus dictum lectus, sit amet cursus ante augue sed quam. Morbi ac nisi vel tellus lacinia commodo eget a enim. Vestibulum volutpat velit quis hendrerit hendrerit. Maecenas eu fermentum urna. In rutrum arcu eu facilisis rhoncus. Vestibulum sit amet malesuada nibh. Praesent at turpis at velit rhoncus auctor.
+                Throughout our careers we've heard stories from countless customers about how they've been tricked, swindled, hustled, bamboozled, conned and overall just treated not very nicely by other mechanics not only her in South Florida, but around the country. And we think that's a darned shame because our mamas raised us right. At Slick's we believe that hard work and smart work are high on the totem pole of customer service but above all sits honest work. Starting from John "Slick" Doe all the way down to our newest mechanics and specialist, you can rest assure that the services you get from Slick's will be not only the best you can find, but the most honest as well. We'll never try to force you into making unnecessary purchases or repairs, and we'll always speak with you before we do anything that wasn't originally agreed upon. That's the Slick's promise and our word is our most valuable possession.
             </p>
             <a href="http://julioaenlle.net/slicksautobody/index.php/contact/">MAKE AN APPOINTMENT</a>
         </div>
