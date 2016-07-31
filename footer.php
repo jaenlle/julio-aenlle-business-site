@@ -37,8 +37,19 @@
       </footer>
 
   </div><!-- this is the end of the container div -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+      $(function() { $('.my-slider').unslider({
+          autoplay: true
+          });
+      });
+  </script>
 
   <?php wp_footer(); ?> <!-- last thing you put before the body end tag -->
+
+  <!-- Begin Unslider Initiator -->
+
+  <!-- End Unslider Initiator -->
 
   </body>
 </html>
