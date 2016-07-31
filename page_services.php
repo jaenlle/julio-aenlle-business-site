@@ -11,31 +11,35 @@ Template Name: Services Page
                 <div class="row servetop">
                     <div class="servleft sl1">
                         <img class="mech" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/mech2.jpg" alt="" />
+                        <h2>Preventative Maintenance</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis vel mauris in vulputate. Cras sem ante, mollis quis accumsan vitae, suscipit vitae lectus. Sed eget semper ligula. Vivamus efficitur, odio vitae congue rhoncus, dui purus maximus nibh, sed suscipit lacus urna a purus. Vivamus sit amet eros arcu. Ut condimentum, nisi eu bibendum rutrum, nibh purus aliquet elit, et malesuada velit lacus eu magna. Aliquam eu magna elit.
+                            At Slick's we believe it's always better to stop a problem before it starts. Our range of preventative maintenance services includes oil changes; battery  and hose checks; wiper blade replacement; headlight maintenance; winter and summer preparation services; state inspections; and more.
                         </p>
                         <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-performance.png" alt="" />
                     </div>
                     <div class="servright">
                         <img class="mech" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/mech1.jpg" alt="" />
+                        <h2>Repair Services</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis vel mauris in vulputate. Cras sem ante, mollis quis accumsan vitae, suscipit vitae lectus. Sed eget semper ligula. Vivamus efficitur, odio vitae congue rhoncus, dui purus maximus nibh, sed suscipit lacus urna a purus. Vivamus sit amet eros arcu. Ut condimentum, nisi eu bibendum rutrum, nibh purus aliquet elit, et malesuada velit lacus eu magna. Aliquam eu magna elit.
+                            Even the best prevention won't stop everything from breaking down eventually. Here at slick's we're a full service repair shop. We handle everything from brakes; shocks and suspensions; bettery replacement; belt and hose maintenance; heating and cooling; and more.
                         </p>
-                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-tire.png" alt="" />
+                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-maintenance.png" alt="" />
                     </div>
                 </div>
                 <div class="row servebottom">
                     <div class="servleft">
                         <img class="mech" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/mech3.jpg" alt="" />
+                        <h2>Tire Services</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis vel mauris in vulputate. Cras sem ante, mollis quis accumsan vitae, suscipit vitae lectus. Sed eget semper ligula. Vivamus efficitur, odio vitae congue rhoncus, dui purus maximus nibh, sed suscipit lacus urna a purus. Vivamus sit amet eros arcu. Ut condimentum, nisi eu bibendum rutrum, nibh purus aliquet elit, et malesuada velit lacus eu magna. Aliquam eu magna elit.
+                            Few, if any, things on your care are more important than the one part that touches the road. At Slick's we provide our customers with the very best in tire services. We do everything related to rubber: alignment, rotation, flat tire repair, balancing, TPMS services, and more.
                         </p>
-                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-maintenance.png" alt="" />
+                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-tire.png" alt="" />
                     </div>
                     <div class="servright">
                         <img class="mech" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/mech4.jpg" alt="" />
+                        <h2>Diagnostics &amp; Aftermarket</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mattis vel mauris in vulputate. Cras sem ante, mollis quis accumsan vitae, suscipit vitae lectus. Sed eget semper ligula. Vivamus efficitur, odio vitae congue rhoncus, dui purus maximus nibh, sed suscipit lacus urna a purus. Vivamus sit amet eros arcu. Ut condimentum, nisi eu bibendum rutrum, nibh purus aliquet elit, et malesuada velit lacus eu magna. Aliquam eu magna elit.
+                            These days our cars are smarter than we are. At Slick's we're stocked with the latest in diagnostics equipment to keep your car running at its Ivy League potential. We're also your one-stop shop for aftermarket services such as exhaust augmentation, suspension lifting or lowering, car audio and more.
                         </p>
                         <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-repair.png" alt="" />
                     </div>
