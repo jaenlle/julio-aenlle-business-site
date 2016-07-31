@@ -15,7 +15,7 @@ Template Name: Services Page
                         <p>
                             At Slick's we believe it's always better to stop a problem before it starts. Our range of preventative maintenance services includes oil changes; battery  and hose checks; wiper blade replacement; headlight maintenance; winter and summer preparation services; state inspections; and more.
                         </p>
-                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-performance.png" alt="" />
+                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-repair.png`" alt="" />
                     </div>
                     <div class="servright">
                         <img class="mech" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/mech1.jpg" alt="" />
@@ -41,7 +41,7 @@ Template Name: Services Page
                         <p>
                             These days our cars are smarter than we are. At Slick's we're stocked with the latest in diagnostics equipment to keep your car running at its Ivy League potential. We're also your one-stop shop for aftermarket services such as exhaust augmentation, suspension lifting or lowering, car audio and more.
                         </p>
-                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-repair.png" alt="" />
+                        <img class="icon" src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/icon-performance.png" alt="" />
                     </div>
                 </div>
             </div>

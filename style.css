@@ -799,19 +799,21 @@ li.categories {
 
 /* ------------------------------------------------------------------- 404 -- */
 
-.404h1,
-.404h2,
-.404p {
-    text-align: center;
+section.row.404 {
+    margin-top: 50px;
 }
 
-.twelve.columns.404 h2,
+h1.404h1,
+h2.404h2,
+p.404p {
+    text-align: center;
+}
 
 /* ------------------------------------------------------------------ cars -- */
 
 img#happycar,
 img#sadcar {
     max-width: 550px;
-    margin: auto;
     display: block;
+    margin: auto;
 }
