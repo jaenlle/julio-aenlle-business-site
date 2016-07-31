@@ -34,6 +34,9 @@ get_header(); ?> <!-- Gets information from header.php to display on page -->
                         } //end if statement
                       ?>
                 </div>
+                <div class="twelve columns appt">
+                    <a href="http://julioaenlle.net/slicksautobody/index.php/contact/">MAKE AN APPOINTMENT</a>
+                </div>
             </section> <!-- End Body Content Section -->
 
 <?php get_footer(); ?> <!-- Gets information from footer.php to display on page-->

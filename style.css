@@ -254,9 +254,8 @@ footer a {
 
 /* -------------------------------------------------------------- homepage -- */
 
-.placeholder {
-    background-color: lightblue;
-    height: 500px;
+div.mainimage img {
+    max-width: 960px;
 }
 
 .main {
@@ -713,7 +712,7 @@ img#happycar {
 /* ------------------------------------------------------------------ blog -- */
 
 section.row.blog {
-    margin: 50px 0;
+    margin: 50px 0 0;
 }
 
 section.row.blog h1 {

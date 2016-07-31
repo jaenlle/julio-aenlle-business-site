@@ -3,7 +3,7 @@
     <!-- Begin Body Content Section -->
     <section class="row">
         <div class="twelve columns">
-            <div class="placeholder"></div>
+            <div class="mainimage"><img src="http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/main.jpg" alt="" /></div>
         </div>
         <div class="two columns blank">Blank Column</div>
         <div class="eight columns main">

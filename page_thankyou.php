@@ -16,4 +16,5 @@ Template Name: Thank You Page
                 </p>
             </div>
         </div>
+
     <?php get_footer(); ?>

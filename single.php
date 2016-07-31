@@ -38,6 +38,9 @@
                     </div>
                 </div>
             </div>
+            <div class="twelve columns appt">
+                <a href="http://julioaenlle.net/slicksautobody/index.php/contact/">MAKE AN APPOINTMENT</a>
+            </div>
         </section>
 
 <?php get_footer(); ?>
