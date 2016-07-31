@@ -429,10 +429,22 @@ li.fl a {
     letter-spacing: 2px;
     font-size: 2.6em;
     letter-spacing: 2.5px;
-    padding: 0 45px;
     -webkit-border-radius: 6px;
     header
     border-radius: 6px;
+}
+
+@media (max-width: 1000px) {
+    .main a {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 750px) {
+    .main a {
+        font-size: 1.3em;
+        padding: 0 15px;
+    }
 }
 
 .maindeals {
@@ -444,19 +456,38 @@ li.fl a {
 }
 
 .maindeals li {
-    background-color: #085d24;
+    background-color: #000000;
     display: inline-block;
-    color: #f5ff6e;
+    margin: 20px 8px;
 }
 
 .maindeals p {
-    color: #f5ff6e;
+    color: white;
+    text-align: center;
 }
 
 .blocks {
     height: 140px;
-    width: 160px;
-    margin: 0 30px;
+    width: 220px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hm1 {
+    background-image: url("http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/preventative.png");
+}
+
+.hm2 {
+    background-image: url("http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/repair.png");
+}
+
+.hm3 {
+    background-image: url("http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/tire.png");
+}
+
+.hm4 {
+    background-image: url("http://julioaenlle.net/slicksautobody/wp-content/uploads/2016/07/diagnostic.png");
 }
 
 /* -------------------------------------------------------------- services -- */

@@ -16,14 +16,10 @@
         <div class="two columns blank">Black Column</div>
         <div class="twelve columns maindeals">
             <ul>
-                <li><div class="blocks"><a href="#">10% OFF</a>
-                </div></li>
-                <li><div class="blocks"><a href="#">Buy 1, Get 1</a>
-                </div></li>
-                <li><div class="blocks"><a href="#">FREE</a>
-                </div></li>
-                <li><div class="blocks"><a href="#">25% OFF</a>
-                </div></li>
+                <li><div class="blocks hm1"><p>Prevention</p></div></li>
+                <li><div class="blocks hm2"><p>Repairs</p></div></li>
+                <li><div class="blocks hm3"><p>Tires</p></div></li>
+                <li><div class="blocks hm4"><p>Diagnostics</p></div></li>
             </ul>
         </div>
 
